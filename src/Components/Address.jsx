@@ -15,7 +15,7 @@ function Address() {
     };
     return (
         <>
-            <div className="bg-address ">
+            <div className="bg-address" id="white">
                 <Container className='py-address d-flex flex-column align-items-center'>
                     <p className=' ff-maro fw-semibold text-48 lh-md-57 text-center text-white mb-0'><span className=' color-yellow'>$CLAIR</span> Smart Contract Address</p>
                     <div className="input-box mt-4">

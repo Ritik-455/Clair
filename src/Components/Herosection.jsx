@@ -2,8 +2,8 @@ import React from 'react'
 import Header from './Header'
 import { Container } from 'react-bootstrap'
 import { Bucket, Down } from '../Common/Icon'
-import Bottom from '../assets/images/Webp/hero-bottom.png'
-import Bottomlayer from '../assets/images/Webp/hero-bottom-layer.png'
+import Bottom from '../assets/images/Webp/hero-bottom.webp'
+import Bottomlayer from '../assets/images/Webp/hero-bottom-layer.webp'
 
 function Herosection() {
     return (

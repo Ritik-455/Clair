@@ -12,19 +12,36 @@ import Roadmap from './Components/Roadmap';
 import Frequent from './Components/Frequent';
 import Social from './Components/Social';
 import Footer from './Components/Footer';
+import { useEffect, useState } from 'react';
+import Preloader from './Common/Preloader';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate data fetching or any asynchronous operation
+    setTimeout(() => {
+      setLoading(false); // Set loading to false after some time (simulating data loading)
+    }, 3000); // Simulating a 3 second delay
+  }, []);
   return (
     <>
-      <Herosection />
-      <About />
-      <Address />
-      <Tokenomics />
-      <Fully />
-      <Roadmap />
-      <Frequent />
-      <Social />
-      <Footer />
+      {loading ? (
+        <Preloader />
+      ) : (
+        <div>
+          <Herosection />
+          <About />
+          <Address />
+          <Tokenomics />
+          <Fully />
+          <Roadmap />
+          <Frequent />
+          <Social />
+          <Footer />
+        </div>
+      )}
+
     </>
   );
 }

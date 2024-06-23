@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import { Discord, Telegram, Twitter } from '../Common/Icon'
-import dino from '../assets/images/Webp/dino-ellips.png'
+import dino from '../assets/images/Webp/dino-ellips.webp'
 
 
 function Social() {

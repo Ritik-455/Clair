@@ -27,19 +27,19 @@ function Header() {
                         <div className=" d-flex align-items-center gap-60">
                             <div className={`${show ? "end-0" : "right_100"} d-flex gap-5 mobile-view`}>
                                 <ul className="d-flex flex-column flex-lg-row gap-4 align-items-center">
-                                    <li><a href="#home" className=' ff-maro fw-medium text-16 lh-24 color-grey nav_link position-relative' onClick={() => {
-                                        setfirst(!show);
-                                    }}>About</a></li>
                                     <li><a href="#about" className=' ff-maro fw-medium text-16 lh-24 color-grey nav_link position-relative' onClick={() => {
                                         setfirst(!show);
+                                    }}>About</a></li>
+                                    <li><a href="#token" className=' ff-maro fw-medium text-16 lh-24 color-grey nav_link position-relative' onClick={() => {
+                                        setfirst(!show);
                                     }}>Tokenomics</a></li>
-                                    <li><a href="#service" className=' ff-maro fw-medium text-16 lh-24 color-grey nav_link position-relative' onClick={() => {
+                                    <li><a href="#audit" className=' ff-maro fw-medium text-16 lh-24 color-grey nav_link position-relative' onClick={() => {
                                         setfirst(!show);
                                     }}>Audit</a></li>
-                                    <li><a href="#pricing" className=' ff-maro fw-medium text-16 lh-24 color-grey nav_link position-relative' onClick={() => {
+                                    <li><a href="#roadmap" className=' ff-maro fw-medium text-16 lh-24 color-grey nav_link position-relative' onClick={() => {
                                         setfirst(!show);
                                     }}>Roadmap</a></li>
-                                    <li><a href="#blog" className=' ff-maro fw-medium text-16 lh-24 color-grey nav_link position-relative' onClick={() => {
+                                    <li><a href="#white" className=' ff-maro fw-medium text-16 lh-24 color-grey nav_link position-relative' onClick={() => {
                                         setfirst(!show);
                                     }}>White Paper</a></li>
                                 </ul>

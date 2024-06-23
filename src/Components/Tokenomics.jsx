@@ -1,14 +1,14 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Add, Arrow } from '../Common/Icon'
-import Token from '../assets/images/Webp/tokenomic.png'
+import Token from '../assets/images/Webp/tokenomic.webp'
 import fox from '../assets/images/SVG/fox.svg'
 import Hud from '../assets/images/SVG/huddy.svg'
 
 function Tokenomics() {
     return (
         <>
-            <div className="bg-token">
+            <div className="bg-token" id='token'>
                 <Container className='py-token'>
                     <Row>
                         <Col xs={12} md={7}>

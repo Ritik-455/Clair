@@ -1,14 +1,14 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Slider from "react-slick";
-import full from '../assets/images/Webp/fully-img.png'
-import Coin from '../assets/images/Webp/coinbase.png'
-import Kar from '../assets/images/Webp/kraken.png'
-import Ku from '../assets/images/Webp/ku.png'
-import Dk from '../assets/images/Webp/Dk.png'
-import Uni from '../assets/images/Webp/uniswap.png'
-import Gok from '../assets/images/Webp/Gecko.png'
-import Behind from '../assets/images/Webp/fully-behind-img.png'
+import full from '../assets/images/Webp/fully-img.webp'
+import Coin from '../assets/images/Webp/coinbase.webp'
+import Kar from '../assets/images/Webp/kraken.webp'
+import Ku from '../assets/images/Webp/ku.webp'
+import Dk from '../assets/images/Webp/Dk.webp'
+import Uni from '../assets/images/Webp/uniswap.webp'
+import Gok from '../assets/images/Webp/Gecko.webp'
+import Behind from '../assets/images/Webp/fully-behind-img.webp'
 
 function Fully() {
     var settings = {
@@ -39,11 +39,11 @@ function Fully() {
     };
     return (
         <>
-            <div className="bg-fully">
+            <div className="bg-fully" id="audit">
                 <Container className=' py-fully'>
                     <Row>
                         <Col xs={12} lg={6} className=' d-lg-flex justify-content-center'>
-                            <div className="position-relative"><img src={full} alt="fully" />
+                            <div className="position-relative"><img src={full} alt="fully" className='w-170' />
                                 <div className="position-absolute img-pos d-none d-lg-block">
                                 <img src={Behind} alt="Behind" />
                                 </div>

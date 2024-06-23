@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap'
 import { Coin, Dots, Group, Time, Tlogo, Triangle } from '../Common/Icon'
 import whiteline from '../assets/images/SVG/white-line.svg'
 import Yellowline from '../assets/images/SVG/yellow-line.svg'
-import dino from '../assets/images/Webp/dino-ellips.png'
+import dino from '../assets/images/Webp/dino-ellips.webp'
 
 function About() {
     const initialTime = { hours: 12, minutes: 49, seconds: 19 };
@@ -42,7 +42,7 @@ function About() {
     return (
         <>
 
-            <div className=" position-relative">
+            <div className=" position-relative" id="about">
                 <Container className=' d-flex flex-column align-items-center pb-about'>
                     <div className="about-box mt-2 mt-xl-5">
                         <div className="d-flex gap-about-box flex-wrap flex-md-nowrap justify-content-center justify-content-lg-start">
@@ -101,7 +101,7 @@ function About() {
                                                 <span className="d-md-block">increase in</span></p>
                                         </div>
                                     </div>
-                                    <div className="d-flex gap-1 align-items-center mt-3 mt-sm-0">
+                                    <div className="d-flex gap-1 align-items-center">
                                         <div className="w_50">
                                             <p className=' ff-maro fw-normal text-14 lh-21 color-darkgrey mb-0 text-center'>Days</p>
                                             <div className="time-box d-flex align-items-center justify-content-center">

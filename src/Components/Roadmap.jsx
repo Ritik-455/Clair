@@ -3,12 +3,12 @@ import { Container } from 'react-bootstrap'
 import card1ellips from '../assets/images/SVG/card-1.svg'
 import card2ellips from '../assets/images/SVG/card-2.svg'
 import card3ellips from '../assets/images/SVG/card-3.svg'
-import graph from '../assets/images/Webp/roadmap-bottom-layer.png'
+import graph from '../assets/images/Webp/roadmap-bottom-layer.webp'
 
 function Roadmap() {
     return (
         <>
-            <div className="bg-road position-relative overflow_hidden">
+            <div className="bg-road position-relative overflow_hidden" id="roadmap">
                 <Container className=' py-roadmap'>
                     <h5 className=' ff-maro fw-semibold text-48 lh-md-57 text-center color-lightwhite mb-0'>Roadmap</h5>
                     <div className="d-flex mt-road justify-content-center gap-3 gap-md-5 justify-content-lg-between justify-content-xl-around flex-wrap flex-lg-nowrap">
