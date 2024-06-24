@@ -485,7 +485,7 @@ ul {
 .social-box {
   max-width: 840px;
   width: 100%;
-  background-image: url(./assets/images/Webp/social-bg.png);
+  background-image: url(./assets/images/Webp/social-bg.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

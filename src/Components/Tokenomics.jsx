@@ -13,7 +13,7 @@ function Tokenomics() {
                     <Row>
                         <Col xs={12} md={7}>
                             <h4 className=' ff-maro fw-semibold text-48 lh-57 color-lightwhite mb-0'>Tokenomics</h4>
-                            <div className="d-flex gap-3 align-items-center mt-md-3">
+                            <div className="d-flex gap-3 align-items-center mt-md-3">  
                                 <p className=' ff-maro fw-normal text-24 lh-36 color-grey mb-0'>Baby Sinclair</p>
                                 <div className="Clair-box ff-maro fw-normal text-24 lh-36 color-yellow">
                                     $Clair
