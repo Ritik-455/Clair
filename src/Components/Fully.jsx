@@ -39,13 +39,13 @@ function Fully() {
     };
     return (
         <>
-            <div className="bg-fully" id="audit">
+            <div className="bg-fully position-relative" id="audit">
                 <Container className=' py-fully'>
                     <Row>
                         <Col xs={12} lg={6} className=' d-lg-flex justify-content-center'>
                             <div className="position-relative"><img src={full} alt="fully" className='w-170' />
                                 <div className="position-absolute img-pos d-none d-lg-block">
-                                <img src={Behind} alt="Behind" />
+                                    <img src={Behind} alt="Behind" />
                                 </div>
                             </div>
                         </Col>
@@ -95,7 +95,7 @@ function Fully() {
                         </Col>
                     </Row>
                 </Container>
-
+                <div className="ylw_ellips position-absolute fullly_bottom_ellips_pos d-none d-lg-block"></div>
             </div>
         </>
     )

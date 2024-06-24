@@ -33,6 +33,7 @@ function Social() {
                     </div>
                 </Container>
                 <div className="position-absolute dino-about-pos2"><img src={dino} alt="dino" className='opacity-50' /></div>
+                <div className="ylw_ellips position-absolute social_ellips_pos d-none d-lg-block"></div>
             </div>
         </>
     )

@@ -29,7 +29,7 @@ function App() {
       {loading ? (
         <Preloader />
       ) : (
-        <div>
+        <>
           <Herosection />
           <About />
           <Address />
@@ -39,7 +39,7 @@ function App() {
           <Frequent />
           <Social />
           <Footer />
-        </div>
+        </>
       )}
 
     </>

@@ -8,7 +8,7 @@ import Hud from '../assets/images/SVG/huddy.svg'
 function Tokenomics() {
     return (
         <>
-            <div className="bg-token" id='token'>
+            <div className="bg-token position-relative" id='token'>
                 <Container className='py-token'>
                     <Row>
                         <Col xs={12} md={7}>

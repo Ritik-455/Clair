@@ -111,6 +111,7 @@ function Roadmap() {
                 <div className="position-absolute layer-pos d-none d-lg-block">
                     <img src={graph} alt="graph" className=' w-100'/>
                 </div>
+                <div className="ylw_ellips position-absolute road_left_ellips_pos d-none d-lg-block"></div>
             </div>
         </>
     )

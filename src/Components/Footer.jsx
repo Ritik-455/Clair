@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap'
 function Footer() {
     return (
         <>
-            <div className="bg-footer d-flex">
+            <div className="bg-footer d-flex position-relative">
                 <Container className=' d-flex flex-column align-items-center justify-content-end'>
                     <h5 className=' ff-maro fw-semibold text-60 lh-md-72 color-yellow mb-0 text-center cursor-pointer'>$CLAIR</h5>
                     <p className=' ff-maro fw-normal text-16 lh-24 color-darkgrey mb-0 max-w-626 text-center mt-20'>In this meme-driven world, laughter is not just a reaction; it's a powerful tool for chang
@@ -22,6 +22,7 @@ function Footer() {
                     </ul>
                     <div className="full-line my-40 w-100"></div>
                 </Container>
+                <div className="ylw_ellips position-absolute footer_ellips_pos d-none d-lg-block"></div>
             </div>
         </>
     )

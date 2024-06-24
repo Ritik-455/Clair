@@ -42,7 +42,7 @@ function About() {
     return (
         <>
 
-            <div className=" position-relative" id="about">
+            <div className=" position-relative overflow-hidden" id="about">
                 <Container className=' d-flex flex-column align-items-center pb-about'>
                     <div className="about-box mt-2 mt-xl-5">
                         <div className="d-flex gap-about-box flex-wrap flex-md-nowrap justify-content-center justify-content-lg-start">
@@ -143,6 +143,7 @@ function About() {
                 <div className="position-absolute dino-about-pos d-none d-lg-block">
                     <img src={dino} alt="dino" />
                 </div>
+                <div className="ylw_ellips position-absolute about_ellips_pos d-none d-lg-block"></div>
             </div>
         </>
     )

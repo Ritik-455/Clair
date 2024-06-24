@@ -24,6 +24,7 @@ function Herosection() {
                     </a>
                     <div className="d-flex justify-content-center"><img src={Bottomlayer} alt="Bottomlayer" className=' w-100 max-w-711' /></div>
                 </Container>
+                <div className="ylw_ellips position-absolute hero_ellips_pos d-none d-lg-block"></div>
             </div>
         </>
     )
