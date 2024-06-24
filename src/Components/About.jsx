@@ -44,7 +44,7 @@ function About() {
 
             <div className=" position-relative overflow-hidden" id="about">
                 <Container className=' d-flex flex-column align-items-center pb-about'>
-                    <div className="about-box mt-2 mt-xl-5">
+                    <div className="about-box mt-2 mt-xl-5" data-aos="fade-down">
                         <div className="d-flex gap-about-box flex-wrap flex-md-nowrap justify-content-center justify-content-lg-start">
                             <div className="">
                                 <div className=" d-flex gap-28 align-items-center">
@@ -134,11 +134,11 @@ function About() {
                             </div>
                         </div>
                     </div>
-                    <h3 className=' ff-maro fw-semibold text-48 lh-57 text-white mb-0 mt-about'>About <span className=' color-yellow'>$CLAIR</span></h3>
-                    <p className=' ff-maro fw-normal text-16 lh-24 text-center color-darkgrey mb-0 text-center mt-lg-3'>As you navigate through the avatars, you'll find each one has a unique voice, bringing laughter and a touch <span className="d-lg-block">of sarcasm to the otherwise serious discussions in the crypto space.</span></p>
-                    <p className=' ff-maro fw-normal text-16 lh-24 text-center color-darkgrey mb-0 text-center mt-12'>In a landscape where tensions can run high, Baby Sinclair’s memes serve as a reminder that, sometimes, <span className="d-lg-block">the best way to confront challenges is with a good laugh.</span></p>
-                    <p className=' ff-maro fw-normal text-16 lh-24 text-center color-darkgrey mb-0 text-center mt-12'>In this meme-driven world, laughter is not just a reaction; it's a powerful tool for change, and Baby Sinclair is wielding  <span className="d-lg-block">it with style.The bad players better watch out; the crypto defender is here, armed with memes and ready to act.</span></p>
-                    <button className=' hero-btn ff-maro fw-bold text-16 lh-24 color-lightblack mt-32'>Learn More</button>
+                    <h3 className=' ff-maro fw-semibold text-48 lh-57 text-white mb-0 mt-about' data-aos="fade-up">About <span className=' color-yellow'>$CLAIR</span></h3>
+                    <p className=' ff-maro fw-normal text-16 lh-24 text-center color-darkgrey mb-0 text-center mt-lg-3' data-aos="fade-up">As you navigate through the avatars, you'll find each one has a unique voice, bringing laughter and a touch <span className="d-lg-block">of sarcasm to the otherwise serious discussions in the crypto space.</span></p>
+                    <p className=' ff-maro fw-normal text-16 lh-24 text-center color-darkgrey mb-0 text-center mt-12' data-aos="fade-up">In a landscape where tensions can run high, Baby Sinclair’s memes serve as a reminder that, sometimes, <span className="d-lg-block">the best way to confront challenges is with a good laugh.</span></p>
+                    <p className=' ff-maro fw-normal text-16 lh-24 text-center color-darkgrey mb-0 text-center mt-12' data-aos="fade-up">In this meme-driven world, laughter is not just a reaction; it's a powerful tool for change, and Baby Sinclair is wielding  <span className="d-lg-block">it with style.The bad players better watch out; the crypto defender is here, armed with memes and ready to act.</span></p>
+                    <button className=' hero-btn ff-maro fw-bold text-16 lh-24 color-lightblack mt-32' data-aos="fade-up">Learn More</button>
                 </Container>
                 <div className="position-absolute dino-about-pos d-none d-lg-block">
                     <img src={dino} alt="dino" />

@@ -14,16 +14,22 @@ import Social from './Components/Social';
 import Footer from './Components/Footer';
 import { useEffect, useState } from 'react';
 import Preloader from './Common/Preloader';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    Aos.init({ once: true, duration: 1000 });
+  }, []);
 
   useEffect(() => {
-    // Simulate data fetching or any asynchronous operation
     setTimeout(() => {
-      setLoading(false); // Set loading to false after some time (simulating data loading)
-    }, 3000); // Simulating a 3 second delay
+      setLoading(false);
+    }, 3000);
   }, []);
+
+
   return (
     <>
       {loading ? (

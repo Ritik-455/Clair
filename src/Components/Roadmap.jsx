@@ -12,7 +12,7 @@ function Roadmap() {
                 <Container className=' py-roadmap'>
                     <h5 className=' ff-maro fw-semibold text-48 lh-md-57 text-center color-lightwhite mb-0'>Roadmap</h5>
                     <div className="d-flex mt-road justify-content-center gap-3 gap-md-5 justify-content-lg-between justify-content-xl-around flex-wrap flex-lg-nowrap">
-                        <div className="roadmap-card mt-card-1">
+                        <div className="roadmap-card mt-card-1" data-aos="flip-left">
                             <p className=' ff-maro fw-medium text-32 lh-48 text-white mb-0'>Phase 1</p>
                             <div className="d-flex flex-column gap-2">
                                 <div className="d-flex gap-2 align-items-center mt-2 mt-md-3">
@@ -46,7 +46,7 @@ function Roadmap() {
                             </div>
                             <div className="position-absolute line-1-pos d-none d-lg-block"><img src={card1ellips} alt="card1ellips" /></div>
                         </div>
-                        <div className="roadmap-card mt-card-2 position-relative">
+                        <div className="roadmap-card mt-card-2 position-relative" data-aos="flip-left">
                             <p className=' ff-maro fw-medium text-32 lh-48 text-white mb-0'>Phase 2</p>
                             <div className="d-flex flex-column gap-2">
                                 <div className="d-flex gap-2 align-items-center mt-2 mt-md-3">
@@ -80,7 +80,7 @@ function Roadmap() {
                             </div>
                             <div className="position-absolute line-2-pos d-none d-lg-block"><img src={card2ellips} alt="card2ellips" /></div>
                         </div>
-                        <div className="roadmap-card position-relative">
+                        <div className="roadmap-card position-relative" data-aos="flip-left">
                             <p className=' ff-maro fw-medium text-32 lh-48 text-white mb-0'>Phase 3</p>
                             <div className="d-flex flex-column gap-2">
                                 <div className="d-flex gap-2 align-items-center mt-2 mt-md-3">

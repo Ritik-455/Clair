@@ -16,7 +16,7 @@ body {
 
 /*************padding-margin**************************************/
 .mt-50 {
-  margin-top: 25px;
+  margin-top: 50px;
 }
 
 .mt-neg-10 {
@@ -207,6 +207,14 @@ ul {
   color: var(--color-yellow);
 }
 
+.hero-btn:hover span .svg_hover {
+  fill: var(--color-yellow);
+  transition: 0.3s linear;
+}
+
+.hero-btn span .svg_hover {
+  fill: black;
+}
 
 .Toastify__toast-theme--colored.Toastify__toast--success {
   color: var(--toastify-text-color-success);
@@ -292,7 +300,16 @@ ul {
   background-color: var(--color-yellow);
   border-radius: 10px;
   padding: 12px 93.5px;
-  border: none;
+  border: 1px solid transparent;
+  transition: 0.3s linear;
+  text-wrap: nowrap;
+}
+
+.buy-btn:hover {
+  background-color: transparent;
+  border: 1px solid var(--color-yellow);
+  color: var(--color-yellow);
+  text-wrap: nowrap;
 }
 
 .gap-about-box {
@@ -694,14 +711,11 @@ input[type='range']::-webkit-slider-thumb {
 
 .preloader {
   border: 6px solid rgba(0, 0, 0, 0.1);
-  /* Light border */
   border-top: 6px solid var(--color-yellow);
-  /* Blue border */
   border-radius: 50%;
   width: 50px;
   height: 50px;
   animation: spin 1s linear infinite;
-  /* Animation */
 }
 
 .ylw_ellips {
@@ -839,10 +853,6 @@ input[type='range']::-webkit-slider-thumb {
 @media (min-width:992px) {
   .about-box {
     padding: 40px;
-  }
-
-  .mt-50 {
-    margin-top: 25px;
   }
 
   .py-roadmap {

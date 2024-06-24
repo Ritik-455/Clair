@@ -42,14 +42,14 @@ function Fully() {
             <div className="bg-fully position-relative" id="audit">
                 <Container className=' py-fully'>
                     <Row>
-                        <Col xs={12} lg={6} className=' d-lg-flex justify-content-center'>
+                        <Col xs={12} lg={6} className=' d-lg-flex justify-content-center' data-aos="fade-down">
                             <div className="position-relative"><img src={full} alt="fully" className='w-170' />
                                 <div className="position-absolute img-pos d-none d-lg-block">
                                     <img src={Behind} alt="Behind" />
                                 </div>
                             </div>
                         </Col>
-                        <Col xs={12} lg={6} className=' d-flex flex-column justify-content-center mt-3 mt-lg-0'>
+                        <Col xs={12} lg={6} className=' d-flex flex-column justify-content-center mt-3 mt-lg-0' data-aos="fade-down">
                             <p className=' ff-maro fw-normal text-20 lh-30 mb-0 color-grey'>Rest easy knowing that $CLAIR is </p>
                             <p className=' ff-maro fw-semibold text-32 lh-48 color-yellow mb-0 mt-10'>Fully Audited and 100% Secure.</p>
                             <p className=' ff-maro fw-normal text-20 lh-30 color-lightgrey mb-0 mt-10'>Zero Room for Rug Pulls: Invest with Confidence.</p>
@@ -58,13 +58,13 @@ function Fully() {
                     </Row>
                     <div className=' full-line w-100 mt-line'></div>
                     <Row className=' mt-3 mt-lg-5'>
-                        <Col xs={12} lg={6} className=' d-lg-flex justify-content-center'>
+                        <Col xs={12} lg={6} className=' d-lg-flex justify-content-center' data-aos="fade-up">
                             <div className="">
                                 <p className=' ff-maro fw-semibold text-32 lh-48 mb-0 text-white'>Listing on<span className=' color-yellow'> Major Exchanges</span></p>
                                 <p className=' ff-maro fw-normal text-20 lh-30 color-grey mb-0 max-w-475 mt-lg-3'>Baby Sinclair’s Team is in action to secure the<span className=' color-yellow'> $CLAIR </span>listing on major exchanges. Exciting milestones ahead.</p>
                             </div>
                         </Col>
-                        <Col xs={12} lg={6} className='mt-3 mt-lg-0'>
+                        <Col xs={12} lg={6} className='mt-3 mt-lg-0' data-aos="fade-up">
                             <div className="slider-box">
                                 <Slider {...settings}>
                                     <div className="slider-inner-box">

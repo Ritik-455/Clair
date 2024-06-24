@@ -12,16 +12,16 @@ function Tokenomics() {
                 <Container className='py-token'>
                     <Row>
                         <Col xs={12} md={7}>
-                            <h4 className=' ff-maro fw-semibold text-48 lh-57 color-lightwhite mb-0'>Tokenomics</h4>
+                            <h4 className=' ff-maro fw-semibold text-48 lh-57 color-lightwhite mb-0' data-aos="zoom-in">Tokenomics</h4>
                             <div className="d-flex gap-3 align-items-center mt-md-3">  
-                                <p className=' ff-maro fw-normal text-24 lh-36 color-grey mb-0'>Baby Sinclair</p>
-                                <div className="Clair-box ff-maro fw-normal text-24 lh-36 color-yellow">
+                                <p className=' ff-maro fw-normal text-24 lh-36 color-grey mb-0' data-aos="zoom-in">Baby Sinclair</p>
+                                <div className="Clair-box ff-maro fw-normal text-24 lh-36 color-yellow" data-aos="zoom-in">
                                     $Clair
                                 </div>
                             </div>
-                            <p className=' ff-maro fw-medium text-16 lh-24 color-grey mb-0 mt-md-4'>Total Tokens</p>
-                            <p className=' ff-maro fw-semibold text-40 lh-48 mb-0 color-yellow'>100,000,000,000</p>
-                            <div className="d-flex gap-12 flex-column">
+                            <p className=' ff-maro fw-medium text-16 lh-24 color-grey mb-0 mt-md-4' data-aos="zoom-in">Total Tokens</p>
+                            <p className=' ff-maro fw-semibold text-40 lh-48 mb-0 color-yellow ' data-aos="zoom-in">100,000,000,000</p>
+                            <div className="d-flex gap-12 flex-column" data-aos="zoom-in">
                                 <div className="d-flex gap-12 align-items-end mt-32">
                                     <Arrow />
                                     <p className=' ff-maro fw-medium text-24 lh-36 mb-0 color-grey mb-0'>1%</p>
@@ -54,12 +54,12 @@ function Tokenomics() {
                                 </div>
                             </div>
                         </Col>
-                        <Col xs={12} md={5} className=' d-md-flex align-items-center d-lg-block'>
+                        <Col xs={12} md={5} className=' d-md-flex align-items-center d-lg-block' data-aos="zoom-in">
                             <img src={Token} alt="Token" className=' max-w-491 w-100' />
                         </Col>
                     </Row>
                     <div className="d-flex justify-content-center">
-                        <div className="token-box mt-60">
+                        <div className="token-box mt-60" data-aos="fade-up">
                             <div className="d-flex flex-wrap flex-lg-nowrap gap-80 align-items-center">
                                 <div className="d-flex gap-20 align-items-center">
                                     <div className="token-circle-box d-flex justify-content-center align-items-center">
