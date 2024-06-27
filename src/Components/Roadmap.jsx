@@ -8,7 +8,7 @@ import graph from '../assets/images/Webp/roadmap-bottom-layer.webp'
 function Roadmap() {
     return (
         <>
-            <div className="bg-road position-relative overflow_hidden" id="roadmap">
+            <div className="bg-road position-relative overflow__hidden" id="roadmap">
                 <Container className=' py-roadmap'>
                     <h5 className=' ff-maro fw-semibold text-48 lh-md-57 text-center color-lightwhite mb-0'>Roadmap</h5>
                     <div className="d-flex mt-road justify-content-center gap-3 gap-md-5 justify-content-lg-between justify-content-xl-around flex-wrap flex-lg-nowrap">

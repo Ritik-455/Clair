@@ -29,7 +29,6 @@ function App() {
     }, 3000);
   }, []);
 
-
   return (
     <>
       {loading ? (

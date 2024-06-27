@@ -11,7 +11,7 @@ function Tokenomics() {
             <div className="bg-token position-relative" id='token'>
                 <Container className='py-token'>
                     <Row>
-                        <Col xs={12} md={7}>
+                        <Col xs={12} md={6}>
                             <h4 className=' ff-maro fw-semibold text-48 lh-57 color-lightwhite mb-0' data-aos="zoom-in">Tokenomics</h4>
                             <div className="d-flex gap-3 align-items-center mt-md-3">  
                                 <p className=' ff-maro fw-normal text-24 lh-36 color-grey mb-0' data-aos="zoom-in">Baby Sinclair</p>
@@ -54,11 +54,11 @@ function Tokenomics() {
                                 </div>
                             </div>
                         </Col>
-                        <Col xs={12} md={5} className=' d-md-flex align-items-center d-lg-block' data-aos="zoom-in">
+                        <Col xs={12} md={6} className=' d-md-flex align-items-center d-lg-block' data-aos="zoom-in">
                             <img src={Token} alt="Token" className=' max-w-491 w-100' />
                         </Col>
                     </Row>
-                    <div className="d-flex justify-content-center">
+                    <div className="d-fl ex justify-content-center">
                         <div className="token-box mt-60" data-aos="fade-up">
                             <div className="d-flex flex-wrap flex-lg-nowrap gap-80 align-items-center">
                                 <div className="d-flex gap-20 align-items-center">

@@ -17,7 +17,7 @@ function Herosection() {
                         <button className=' hero-btn ff-maro fw-bold text-16 lh-24 color-lightblack mt-32'>Buy $Clair <span><Bucket /></span></button>
                     </div>
                     <div className="justify-content-center mt-5 mt-xl-0 mb-neg-43 d-none d-xxl-flex"><img width={810} height={433} src={Bottom} alt="Bottom" className=' w-100 max-w-810' /></div>
-                    <div className="d-flex justify-content-center mt-5 mt-xl-0 mb-neg-43 d-xxl-none"><img src={Bottom} alt="Bottom" className=' w-100 max-w-810' /></div>
+                    <div className="d-flex justify-content-center mt-5 mt-xl-0 mb-neg-43 d-xxl-none"><img src={Bottom} alt="Bottom" className=' w-100 max-w-810 h-272' /></div>
                     <a href="#down">
                         <div className="scroll-down-btn d-sm-flex justify-content-center align-items-center position-absolute btn-pos cursor-pointer d-none">
                             <Down />

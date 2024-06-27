@@ -43,7 +43,7 @@ function Fully() {
                 <Container className=' py-fully'>
                     <Row>
                         <Col xs={12} lg={6} className=' d-lg-flex justify-content-center' data-aos="fade-down">
-                            <div className="position-relative"><img src={full} alt="fully" className='w-170' />
+                            <div className="position-relative d-flex justify-content-center d-sm-block"><img src={full} alt="fully" className='w-170' />
                                 <div className="position-absolute img-pos d-none d-lg-block">
                                     <img src={Behind} alt="Behind" />
                                 </div>

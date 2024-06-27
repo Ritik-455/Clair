@@ -25,7 +25,7 @@ function Footer() {
                 <div className="ylw_ellips position-absolute footer_ellips_pos d-none d-lg-block"></div>
             </div>
         </>
-    )
+    )   
 }
 
 export default Footer
