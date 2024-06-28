@@ -10,7 +10,7 @@ function Footer() {
                     <p className=' ff-maro fw-normal text-16 lh-24 color-darkgrey mb-0 max-w-626 text-center mt-20'>In this meme-driven world, laughter is not just a reaction; it's a powerful tool for chang
                         and Baby Sinclair is wielding it with style. The bad players better watch out;
                         the crypto defender is here, armed with memes and ready to act.</p>
-                    <ul className=' d-flex gap-32 mt-50 flex-wrap'>
+                    <ul className=' d-flex gap-32 mt-50 flex-wrap justify-content-center'>
                         <li><a href="#about" className='ff-maro  fw-medium text-16 lh-24 color-lightgrey nav_link position-relative'>About</a></li>
                         <li><a href="#token" className='ff-maro  fw-medium text-16 lh-24 color-lightgrey nav_link position-relative'>Tokenomics</a></li>
                         <li><a href="#audit" className='ff-maro  fw-medium text-16 lh-24 color-lightgrey nav_link position-relative'>Audit</a></li>
